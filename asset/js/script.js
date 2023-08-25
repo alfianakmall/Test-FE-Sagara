@@ -7,7 +7,7 @@ function cekForm(){
 
     if(password.value != '' && email.value != ''){
         document.querySelector('.btn-login').disabled = false;
-        document.querySelector('.btn-login').style.backgroundColor = '#F6712A';
+        document.querySelector('.btn-login').style.backgroundColor = '#0269BF';
     }else{
         document.querySelector('.btn-login').disabled = true;
         document.querySelector('.btn-login').style.backgroundColor = '#E5E5E5';

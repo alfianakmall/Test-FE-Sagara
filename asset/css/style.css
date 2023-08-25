@@ -46,12 +46,6 @@
     justify-content: space-between;
 }
 
-.link-a{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-    color: #3B82F6;
-}
-
 .form-inp label{
     margin-bottom: 5px;
     font-size: 0.875rem;
@@ -78,28 +72,9 @@
     background-color: #E5E5E5;
 }
 
-.form-inp .password{
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    border-right: 0;
-}
-
-.form-inp .icon-password{
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 5px;
-    border: 1px solid #E5E5E5;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    border-left: 0;
-}
 
 .justify-center{
     justify-content: center;
-}
-
-.items-center{
-    align-items: center;
 }
 
 .form{
