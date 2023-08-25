@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.flex{
+    display: flex;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.logo{
+    padding-bottom: 100px;
+}
+
+.group-left{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 25%;
+}
+
+.group-right{
+    width: 75%;
+    
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.mb-4{
+    margin-bottom: 10px;
+}
+
+.mb-6{
+    margin-bottom: 14px;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.link-a{
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #3B82F6;
+}
+
+.form-inp label{
+    margin-bottom: 5px;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.form-inp input{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+}
+
+.btn-login{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    border: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: #E5E5E5;
+}
+
+.form-inp .password{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+
+.form-inp .icon-password{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: 0;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.form{
+    background-color: #ffffff;
+}
+
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.img-right{
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media screen and (max-width: 1279px) {
+    .group-left{
+        width: 35%;
+    }
+
+    .group-right{
+        width: 65%;
+    }
+
+}
+
+@media screen and (max-width: 1023px) {
+    .group-right{
+        display: none;
+    }
+
+    .group-left{
+        width: 100%;
+        background-image: url('/asset/img/bg-right.jpeg');
+        min-height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .form{
+        padding-left: 30px;
+        padding-right: 30px;
+
+        padding-top: 10px;
+        padding-bottom: 30px;
+
+        border-radius: 5px;
+    }
+
+    .logo{
+        padding-bottom: 50px;
+    }
+}

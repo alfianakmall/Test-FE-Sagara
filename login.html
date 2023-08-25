@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+
+    <div class="flex page min-h-screen">
+        <div class="group-left">
+            <div class="form">
+                <div class="logo">
+                    <img src="./asset/img/Logo.png" alt="">
+                </div>
+                <div>
+                    <h2 class="mb-6">Log in</h2>
+                    <form action="">
+                        <div class="mb-4 flex flex-col form-inp">
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="Masukan email yang sudah didaftar" oninput="cekForm()">
+                        </div>
+                        <div class="mb-4 flex flex-col form-inp">
+                            <div class="flex justify-between">
+                                <label for="password">Kata Sandi</label>
+                                <a href="" class="link-a">Lupa kata sandi</a>
+                            </div>
+                            <div class="flex w-full">
+                                <input type="password" name="password" class="w-full password" id="password" placeholder="Kata sandi yang sudah didaftar" oninput="cekForm()">
+                                <div class="flex justify-center items-center icon-password">
+                                    <i class="fa-solid fa-eye-slash"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn-login" disabled onclick="alertform()">Log in</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="group-right">
+            <img src="./asset/img/bg-right.jpeg" class="w-full img-right" alt="">
+        </div>
+    </div>
+
+    <script src="asset/js/script.js"></script>
+</body>
+</html>
